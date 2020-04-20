@@ -8,7 +8,6 @@ do {
   if (Number.isNaN(input) === true) {
     alert('Вы ввели не число. Попробуйте еще раз');
   } else {
-    input = Number(input);
     total += input;
     console.log(total);
   }
